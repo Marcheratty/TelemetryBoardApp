@@ -6,12 +6,12 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 6.2 REQUIRED COMPONENTS Quick)
-find_package(Qt6 5.15 REQUIRED COMPONENTS Location)
+find_package(Qt6 REQUIRED COMPONENTS Quick)
+find_package(Qt6 REQUIRED COMPONENTS Location)
 find_package(Qt6 REQUIRED COMPONENTS Positioning)
 find_package(Qt6 REQUIRED COMPONENTS Charts)
 find_package(Qt6 REQUIRED COMPONENTS SerialPort)
-find_package(Qt6 REQUIRED COMPONENTS Core Gui DataVisualization)
+find_package(Qt6 REQUIRED COMPONENTS Core Gui)
 
 qt_add_executable(appTelemetry2
     main.cpp

@@ -1,0 +1,1 @@
+#define logPath "/home/nessy/Documents/Indy2024/DataCSV_telemetry/yesyqt.csv"
